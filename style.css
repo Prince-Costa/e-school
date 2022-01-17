@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000 !important;
+    width: 80px !important;
+    text-align: center;
+    transition: .4s;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(233, 0, 0) !important;
+    background-color: #21B573 !important;
+    text-align: center;
+    border-radius: 20px;
+}
+.topbanner{
+    background-color:#F0FFF0;
+}
+.info .card{
+    border: none;
+    background-color: #F8FFFB;
+    border-radius: 10PX;
+    box-shadow: 5px 5px 8px rgb(238, 237, 237);
+    transition: .4s;
+}
+.card:hover{
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    border: none;
+    background-color: none;
+}
+.Online-Courses .card{
+    border: none;
+    background-color: #ffffff;
+    border-radius: 10PX;
+    box-shadow: 5px 5px 8px rgb(238, 237, 237);
+    transition: .4s;
+}
+.Online-Courses .card:hover{
+    background-color: #eff8f3;
+    box-shadow: 5px 5px 8px rgb(238, 237, 237);
+}
+footer{
+    background-color: #282531;
+    color: white;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.644);
+}
